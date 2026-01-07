@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INIAD Life - 学生目線のキャンパス紹介</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="weather-default">
+    <header>
+        <nav>
+            <div class="logo">INIAD Student Guide</div>
+            <ul>
+                <li><a href="#about">INIADについて</a></li>
+                <li><a href="#life">学生生活</a></li>
+                <li><a href="#weather-info">今の天気</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <img src="toyo-iniad_main-pc_INA_0276.jpg" alt="INIAD Toyo University Sign" class="hero-image">
+            <div class="hero-overlay"></div> <div class="hero-content">
+                <h1 id="greeting">Loading...</h1>
+                <p id="weather-suggestion">今の天候に合わせて、INIADでの過ごし方を提案します。</p>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>INIADでの学び</h2>
+            <p>赤羽台キャンパスで展開される最先端の情報教育。プログラミングだけでなく様々な分野を学ぶことができます。例えば、ビジネス、デザイン、データサイエンスなど幅広く学べる環境がここにはあります。AIに特化した教育も提供されており、最新の技術を身につけることができます。
+            </p>
+        </section>
+
+        <section id="life" class="container">
+            <h2>学生のリアルな日常</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>01. キャリア支援室</h3>
+                    <p>進路や就職活動の個人的なサポートが受けられます！</p>
+                </div>
+                <div class="card">
+                    <h3>02. Media Center</h3>
+                    <p>静かで快適な空間で、学習や研究に集中できます。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="weather-info" class="container">
+            <h2>Current Campus Weather</h2>
+            <div id="weather-display">
+                <p>赤羽台の天気を取得中...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 INIAD Student Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
